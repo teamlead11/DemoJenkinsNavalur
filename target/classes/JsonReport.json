@@ -1,0 +1,552 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2882756293,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To test add tariif plan with valid details",
+        "description": "",
+        "id": "to-test-add-tariff-plan;to-test-add-tariif-plan-with-valid-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 705522227,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2891866856,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in add tariff plan page",
+            "match": {
+              "location": "Steps.the_user_is_in_add_tariff_plan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 718951289,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user fill in the plan details \"500\",\"200\",\"300\",\"400\",\"500\",\"600\",\"700\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"500\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"300\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"500\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"600\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"700\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Steps.the_user_fill_in_the_plan_details(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 917269025,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user clicks the submit button in add tariff plan",
+            "match": {
+              "location": "Steps.the_user_clicks_the_submit_button_in_add_tariff_plan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39740981,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should see the success message",
+            "match": {
+              "location": "Steps.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addtariff"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sprint1"
+          },
+          {
+            "name": "@us1234"
+          },
+          {
+            "name": "@us4"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2143072541,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To test add tariif plan with valid details",
+        "description": "",
+        "id": "to-test-add-tariff-plan;to-test-add-tariif-plan-with-valid-details;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2894099274,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2738135411,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in add tariff plan page",
+            "match": {
+              "location": "Steps.the_user_is_in_add_tariff_plan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 377714401,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user fill in the plan details \"700\",\"800\",\"300\",\"400\",\"500\",\"600\",\"700\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"700\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"800\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"300\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"500\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"600\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"700\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Steps.the_user_fill_in_the_plan_details(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 937311768,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user clicks the submit button in add tariff plan",
+            "match": {
+              "location": "Steps.the_user_clicks_the_submit_button_in_add_tariff_plan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45784835,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should see the success message",
+            "match": {
+              "location": "Steps.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addtariff"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sprint1"
+          },
+          {
+            "name": "@us1234"
+          },
+          {
+            "name": "@us4"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2138682814,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To test add tariif plan with valid details",
+        "description": "",
+        "id": "to-test-add-tariff-plan;to-test-add-tariif-plan-with-valid-details;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 647172242,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2673163280,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in add tariff plan page",
+            "match": {
+              "location": "Steps.the_user_is_in_add_tariff_plan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 485736470,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user fill in the plan details \"800\",\"700\",\"300\",\"400\",\"500\",\"600\",\"700\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"800\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"700\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"300\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"500\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"600\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"700\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Steps.the_user_fill_in_the_plan_details(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 913629665,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user clicks the submit button in add tariff plan",
+            "match": {
+              "location": "Steps.the_user_clicks_the_submit_button_in_add_tariff_plan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43838037,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should see the success message",
+            "match": {
+              "location": "Steps.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addtariff"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sprint1"
+          },
+          {
+            "name": "@us1234"
+          },
+          {
+            "name": "@us4"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2112878663,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "To test add tariif plan with valid details negative",
+        "description": "",
+        "id": "to-test-add-tariff-plan;to-test-add-tariif-plan-with-valid-details-negative;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 661566769,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2877347855,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user is in add tariff plan page",
+            "match": {
+              "location": "Steps.the_user_is_in_add_tariff_plan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 400537882,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user fill in the plan details \"ABC\",\"200\",\"300\",\"400\",\"500\",\"600\",\"700\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABC\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"300\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"500\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"600\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"700\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Steps.the_user_fill_in_the_plan_details(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60163142,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user clicks the submit button in add tariff plan",
+            "match": {
+              "location": "Steps.the_user_clicks_the_submit_button_in_add_tariff_plan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : please fill all fields Correct Value}\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds: null\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2SONJG7\u0027, ip: \u0027192.168.1.13\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56599}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: 7c7f28378c1cc6c44d5817ad5fe40852\n*** Element info: {Using\u003dtag name, value\u003dh2}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByTagName(RemoteWebDriver.java:396)\r\n\tat org.openqa.selenium.By$ByTagName.findElement(By.java:320)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepdefinition.Steps.the_user_should_see_the_success_message(Steps.java:92)\r\n\tat ✽.The user should see the success message(src/test/resources/features/AddtariffPlan.feature:22)\r\n",
+              "duration": 15660421,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "The user should see the success message",
+            "match": {
+              "location": "Steps.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addtariff"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sprint1"
+          },
+          {
+            "name": "@us1234"
+          }
+        ]
+      }
+    ],
+    "name": "To test add tariff plan",
+    "description": "",
+    "id": "to-test-add-tariff-plan",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/AddtariffPlan.feature",
+    "tags": [
+      {
+        "name": "@addtariff",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 12
+        }
+      },
+      {
+        "name": "@sprint1",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 19
+        }
+      },
+      {
+        "name": "@us1234",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 28
+        }
+      }
+    ]
+  }
+]
