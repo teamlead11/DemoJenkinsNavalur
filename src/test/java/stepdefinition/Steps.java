@@ -12,11 +12,9 @@ import io.cucumber.datatable.DataTable;
 
 public class Steps {
 
-
-
 	@Given("The user is in add customer page")
 	public void xxxx() {
-		
+
 		Hooks.driver.get("http://demo.guru99.com/telecom/addcustomer.php");
 	}
 
@@ -36,12 +34,16 @@ public class Steps {
 		/*
 		 * List<String> customerDetailsList = customerDetails.asList(String.class);
 		 * Hooks.driver.findElement(By.xpath("//label[text()='Done']")).click();
-		 * Hooks.driver.findElement(By.id("fname")).sendKeys(customerDetailsList.get(0));
-		 * Hooks.driver.findElement(By.id("lname")).sendKeys(customerDetailsList.get(1));
-		 * Hooks.driver.findElement(By.id("email")).sendKeys(customerDetailsList.get(2));
-		 * Hooks.driver.findElement(By.name("addr")).sendKeys(customerDetailsList.get(3));
-		 * Hooks.driver.findElement(By.name("telephoneno")).sendKeys(customerDetailsList.get(4
-		 * ));
+		 * Hooks.driver.findElement(By.id("fname")).sendKeys(customerDetailsList.get(0))
+		 * ;
+		 * Hooks.driver.findElement(By.id("lname")).sendKeys(customerDetailsList.get(1))
+		 * ;
+		 * Hooks.driver.findElement(By.id("email")).sendKeys(customerDetailsList.get(2))
+		 * ;
+		 * Hooks.driver.findElement(By.name("addr")).sendKeys(customerDetailsList.get(3)
+		 * );
+		 * Hooks.driver.findElement(By.name("telephoneno")).sendKeys(customerDetailsList
+		 * .get(4 ));
 		 */
 
 		Map<String, String> customerDetailsMap = customerDetails.asMap(String.class, String.class);
@@ -51,6 +53,7 @@ public class Steps {
 		Hooks.driver.findElement(By.id("email")).sendKeys(customerDetailsMap.get("email"));
 		Hooks.driver.findElement(By.name("addr")).sendKeys(customerDetailsMap.get("address"));
 		Hooks.driver.findElement(By.name("telephoneno")).sendKeys(customerDetailsMap.get("phNum"));
+		System.out.println("original changes");
 	}
 
 	@When("The user clicks the submit button")
@@ -65,7 +68,7 @@ public class Steps {
 
 	@Given("The user is in add tariff plan page")
 	public void the_user_is_in_add_tariff_plan_page() {
-		
+
 		Hooks.driver.get("http://demo.guru99.com/telecom/addtariffplans.php");
 	}
 
