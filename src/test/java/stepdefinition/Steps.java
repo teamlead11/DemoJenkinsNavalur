@@ -53,7 +53,7 @@ public class Steps {
 		Hooks.driver.findElement(By.id("email")).sendKeys(customerDetailsMap.get("email"));
 		Hooks.driver.findElement(By.name("addr")).sendKeys(customerDetailsMap.get("address"));
 		Hooks.driver.findElement(By.name("telephoneno")).sendKeys(customerDetailsMap.get("phNum"));
-		System.out.println("original changes");
+		System.out.println("modify changes");
 	}
 
 	@When("The user clicks the submit button")
